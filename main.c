@@ -65,6 +65,9 @@ int main(int argc, char **argv) {
 		else
 			printf("a kitalalando szam kisebb!\n");
 
+		if (guess != 1973) 
+			printf("ja es a szuletesi evemet se talaltad el, emiatt buzi vagy!\n");
+
 		tries++;
 	}
 
